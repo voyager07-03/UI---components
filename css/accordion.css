@@ -1,0 +1,18 @@
+.accordion.open .accordion-content{
+    padding: 5px 5px;
+}
+.accordion-title{
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: space-between;
+}
+.accordion-content{
+    padding: 0px 5px;
+    max-height: 0px;
+    transition: max-height .3s ease-in;
+    overflow: hidden;
+    will-change: max-height;
+    box-sizing: content-box;
+}
